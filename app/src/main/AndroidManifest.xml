@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.varshayadv.musicalapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".songs"
+            android:label="SONGS" />
+        <activity
+            android:name=".albums"
+            android:label="ALBUMS" />
+        <activity
+            android:name=".favourite"
+            android:label="FAVOURITE" />
+        <activity
+            android:name=".radio"
+            android:label="RADIO" />
+        <activity
+            android:name=".artists"
+            android:label="ARTISTS"></activity>
+    </application>
+
+</manifest>

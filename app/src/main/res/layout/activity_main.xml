@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.varshayadv.musicalapp.MainActivity">
+
+
+    <TextView
+        android:id="@+id/songs"
+        android:layout_width="450dp"
+        android:layout_height="75dp"
+        android:background="#009688"
+        android:onClick="songs"
+        android:paddingBottom="18dp"
+        android:paddingLeft="8dp"
+        android:paddingTop="18dp"
+        android:text="songs"
+        android:textAllCaps="true"
+        android:textSize="26dp" />
+
+    <TextView
+        android:id="@+id/albums"
+        android:layout_width="450dp"
+        android:layout_height="75dp"
+        android:background="#FF4500"
+        android:onClick="albums"
+        android:paddingBottom="18dp"
+        android:paddingLeft="8dp"
+        android:paddingTop="18dp"
+        android:text="albums"
+        android:textAllCaps="true"
+        android:textSize="26dp" />
+
+    <TextView
+        android:id="@+id/favourite"
+        android:layout_width="450dp"
+        android:layout_height="75dp"
+        android:background="#FFEB3B"
+        android:onClick="favourite"
+        android:paddingBottom="18dp"
+        android:paddingLeft="8dp"
+        android:paddingTop="18dp"
+        android:text="favourite"
+        android:textAllCaps="true"
+        android:textSize="26dp" />
+
+    <TextView
+        android:id="@+id/radio"
+        android:layout_width="450dp"
+        android:layout_height="75dp"
+        android:background="#FF5722"
+        android:onClick="radio"
+        android:paddingBottom="18dp"
+        android:paddingLeft="8dp"
+        android:paddingTop="18dp"
+        android:text="radio"
+        android:textAllCaps="true"
+        android:textSize="26dp" />
+
+    <TextView
+        android:id="@+id/artists"
+        android:layout_width="450dp"
+        android:layout_height="75dp"
+        android:background="#0288D1"
+        android:onClick="artists"
+        android:paddingBottom="18dp"
+        android:paddingLeft="8dp"
+        android:paddingTop="18dp"
+        android:text="artists"
+        android:textAllCaps="true"
+        android:textSize="26dp" />
+
+
+</LinearLayout>
+
+
+
