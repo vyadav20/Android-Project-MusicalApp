@@ -16,7 +16,7 @@
         android:paddingTop="18dp"
         android:text="album1"
         android:textAllCaps="true"
-        android:textSize="26dp" />
+        android:textSize="26sp" />
 
     <TextView
         android:id="@+id/album2"
@@ -27,7 +27,7 @@
         android:paddingTop="18dp"
         android:text="album2"
         android:textAllCaps="true"
-        android:textSize="26dp" />
+        android:textSize="26sp" />
 
     <TextView
         android:id="@+id/album3"
@@ -38,7 +38,7 @@
         android:paddingTop="18dp"
         android:text="album3"
         android:textAllCaps="true"
-        android:textSize="26dp" />
+        android:textSize="26sp" />
 
     <TextView
         android:id="@+id/album4"
@@ -49,7 +49,7 @@
         android:paddingTop="18dp"
         android:text="album4"
         android:textAllCaps="true"
-        android:textSize="26dp" />
+        android:textSize="26sp" />
 
 
 </LinearLayout>

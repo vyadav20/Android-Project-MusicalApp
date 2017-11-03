@@ -16,7 +16,7 @@
         android:paddingTop="18dp"
         android:text="Ed Sheeran"
         android:textAllCaps="true"
-        android:textSize="26dp" />
+        android:textSize="26sp" />
 
     <TextView
         android:id="@+id/shawnMendes"
@@ -27,7 +27,7 @@
         android:paddingTop="18dp"
         android:text="shawn mendes"
         android:textAllCaps="true"
-        android:textSize="26dp" />
+        android:textSize="26sp" />
 
     <TextView
         android:id="@+id/maroon5"
@@ -38,7 +38,7 @@
         android:paddingTop="18dp"
         android:text="maroon5"
         android:textAllCaps="true"
-        android:textSize="26dp" />
+        android:textSize="26sp" />
 
     <TextView
         android:id="@+id/theWeeknd"
@@ -49,7 +49,7 @@
         android:paddingTop="18dp"
         android:text="the weeknd"
         android:textAllCaps="true"
-        android:textSize="26dp" />
+        android:textSize="26sp" />
 
     <TextView
         android:id="@+id/kendrickLamar"
@@ -60,6 +60,6 @@
         android:paddingTop="18dp"
         android:text="kendrick lamar"
         android:textAllCaps="true"
-        android:textSize="26dp" />
+        android:textSize="26sp" />
 
 </LinearLayout>

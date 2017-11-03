@@ -14,6 +14,17 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        TextView payment = (TextView) findViewById(R.id.payment);
+
+        payment.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                Intent numberIntent = new Intent(MainActivity.this, Payment.class);
+                startActivity(numberIntent);
+            }
+        });
+
         //find the view that shows the number category
         TextView songs = (TextView) findViewById(R.id.songs);
 

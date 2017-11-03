@@ -7,6 +7,19 @@
     android:orientation="vertical"
     tools:context="com.varshayadv.musicalapp.MainActivity">
 
+    <TextView
+        android:id="@+id/payment"
+        android:layout_width="450dp"
+        android:layout_height="75dp"
+        android:background="#FFFFE0"
+        android:onClick="Payment"
+        android:paddingBottom="18dp"
+        android:paddingLeft="8dp"
+        android:paddingTop="18dp"
+        android:text="Payment"
+        android:textAllCaps="true"
+        android:textSize="26sp" />
+
 
     <TextView
         android:id="@+id/songs"
@@ -19,7 +32,7 @@
         android:paddingTop="18dp"
         android:text="songs"
         android:textAllCaps="true"
-        android:textSize="26dp" />
+        android:textSize="26sp" />
 
     <TextView
         android:id="@+id/albums"
@@ -32,7 +45,7 @@
         android:paddingTop="18dp"
         android:text="albums"
         android:textAllCaps="true"
-        android:textSize="26dp" />
+        android:textSize="26sp" />
 
     <TextView
         android:id="@+id/favourite"
@@ -45,7 +58,7 @@
         android:paddingTop="18dp"
         android:text="favourite"
         android:textAllCaps="true"
-        android:textSize="26dp" />
+        android:textSize="26sp" />
 
     <TextView
         android:id="@+id/radio"
@@ -58,7 +71,7 @@
         android:paddingTop="18dp"
         android:text="radio"
         android:textAllCaps="true"
-        android:textSize="26dp" />
+        android:textSize="26sp" />
 
     <TextView
         android:id="@+id/artists"
@@ -71,7 +84,7 @@
         android:paddingTop="18dp"
         android:text="artists"
         android:textAllCaps="true"
-        android:textSize="26dp" />
+        android:textSize="26sp" />
 
 
 </LinearLayout>

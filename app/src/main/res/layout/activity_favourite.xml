@@ -16,7 +16,7 @@
         android:paddingTop="18dp"
         android:text="shape of you"
         android:textAllCaps="true"
-        android:textSize="26dp" />
+        android:textSize="26sp" />
 
     <TextView
         android:id="@+id/cheapThrills"
@@ -27,7 +27,7 @@
         android:paddingTop="18dp"
         android:text="cheap thrills"
         android:textAllCaps="true"
-        android:textSize="26dp" />
+        android:textSize="26sp" />
 
     <TextView
         android:id="@+id/despacito"
@@ -38,6 +38,6 @@
         android:paddingTop="18dp"
         android:text="despactio"
         android:textAllCaps="true"
-        android:textSize="26dp" />
+        android:textSize="26sp" />
 
 </LinearLayout>

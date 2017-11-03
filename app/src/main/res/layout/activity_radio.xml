@@ -15,7 +15,7 @@
         android:paddingLeft="8dp"
         android:paddingTop="18dp"
         android:text="93.1"
-        android:textSize="26dp" />
+        android:textSize="26sp" />
 
     <TextView
         android:id="@+id/radio93.2"
@@ -25,7 +25,7 @@
         android:paddingLeft="8dp"
         android:paddingTop="18dp"
         android:text="93.2"
-        android:textSize="26dp" />
+        android:textSize="26sp" />
 
     <TextView
         android:id="@+id/radio93.4"
@@ -45,6 +45,6 @@
         android:paddingLeft="8dp"
         android:paddingTop="18dp"
         android:text="93.6"
-        android:textSize="26dp" />
+        android:textSize="26sp" />
 
 </LinearLayout>

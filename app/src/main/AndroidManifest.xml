@@ -16,6 +16,9 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".Payment"
+            android:label="Payment API" />
+        <activity
             android:name=".songs"
             android:label="SONGS" />
         <activity
@@ -29,7 +32,7 @@
             android:label="RADIO" />
         <activity
             android:name=".artists"
-            android:label="ARTISTS"></activity>
+            android:label="ARTISTS" />
     </application>
 
 </manifest>

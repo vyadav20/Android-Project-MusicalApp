@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.varshayadv.musicalapp.Payment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/androdpayapioverview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="android pay api overview"
+            android:textAllCaps="true"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The Android Pay API offers a quick and easy path to enable secure,one touch payments in your app using your existing payment infrastructure. Once you complete the integration with your app's payment processing flow, Android users will enjoy a rapid, consistent checkout process with Android Pay." />
+
+        <TextView
+            android:id="@+id/aboutandroidpayapi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="about android pay api"
+            android:textAllCaps="true"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/content1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A significant portion of the Android Pay API's functionality is provided as part of Google Play Services,the core services for developing on Android.The API provides all the Java methods you need to implement your payment process flow, including:\n create an Android Pay buy button\n request and receive encrypted shipping and payment information about the user\n allow the user to change or update their information\n execute a transaction \n Google does not collect payments for your transactions.Payments are handled by your payment processor. Some payment processors impose specific integration requirements. This point is repeated at certain places in the integration guide, but we strongly recommend that you read through the processor's documentation before you begin the integration.\nEach request from your app and each response from the Google server encapsulates the necessary payment data in a Java object. In the simplest terms, the flow looks like this:\n When the user taps the Android Pay button, the app requests MaskedWallet information The Masked Wallet contains partial payment information such as billing address,shipping address, masked backing payment instrument number, and cart items.\nGoogle returns a MaskedWallet response containing the user'swallet information.The app uses this information to present order review screens and other options.For example, the user might want to change their selected payment instrument or add a new shipping address.\n To complete the order, the app requests the FullWallet.\nGoogle passes back FullWallet information, which includes the detailed Android Pay payment credentials for the transaction." />
+
+        <TextView
+            android:id="@+id/androidapiclasses"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="andoid api classes"
+            android:textAllCaps="true"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/content2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name and Description :- \n1) class MaskedWalletRequest = Use the MaskedWalletRequest Builder to create a masked, or partially hidden, payment card number, along with shipping address if requested.\n 2) class FullWalletRequest = Use the FullWalletRequest Builder to get the full credentials for the Android Pay payment transaction.\n 3) class WalletFragment = Provides a simple way to place and interact with a purchase button in the app UI.\n 4) class PaymentMethodTokenizationParamters = Parameters the app must provide to a Wall Request in order to tokenize the credit card selected by the user. The payment processor may require specific parameters for their gateway.\n 5) interface Wallet.Payments = Interface to the Wallet payment flow APIs, used to check if the user can pay with Android Pay and to load a Masked or Full Wallet.\n 6) interface WalletConstants = A collection of constant values." />
+
+    </LinearLayout>
+
+</ScrollView>

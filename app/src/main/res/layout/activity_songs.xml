@@ -20,7 +20,7 @@
             android:paddingTop="18dp"
             android:text="still got the"
             android:textAllCaps="true"
-            android:textSize="26dp" />
+            android:textSize="26sp" />
 
         <TextView
             android:id="@+id/loveIsAlive"
@@ -31,7 +31,7 @@
             android:paddingTop="18dp"
             android:text="love is alive"
             android:textAllCaps="true"
-            android:textSize="26dp" />
+            android:textSize="26sp" />
 
         <TextView
             android:id="@+id/shapeOfYou"
@@ -42,7 +42,7 @@
             android:paddingTop="18dp"
             android:text="shape of you"
             android:textAllCaps="true"
-            android:textSize="26dp" />
+            android:textSize="26sp" />
 
         <TextView
             android:id="@+id/theOne"
@@ -53,7 +53,7 @@
             android:paddingTop="18dp"
             android:text="the one"
             android:textAllCaps="true"
-            android:textSize="26dp" />
+            android:textSize="26sp" />
 
         <TextView
             android:id="@+id/cold"
@@ -64,7 +64,7 @@
             android:paddingTop="18dp"
             android:text="cold"
             android:textAllCaps="true"
-            android:textSize="26dp" />
+            android:textSize="26sp" />
 
         <TextView
             android:id="@+id/slide"
@@ -75,7 +75,7 @@
             android:paddingTop="18dp"
             android:text="Slide"
             android:textAllCaps="true"
-            android:textSize="26dp" />
+            android:textSize="26sp" />
 
         <TextView
             android:id="@+id/stay"
@@ -86,7 +86,7 @@
             android:paddingTop="18dp"
             android:text="stay"
             android:textAllCaps="true"
-            android:textSize="26dp" />
+            android:textSize="26sp" />
 
         <TextView
             android:id="@+id/blackBeatles"
@@ -97,7 +97,7 @@
             android:paddingTop="18dp"
             android:text="black beatles"
             android:textAllCaps="true"
-            android:textSize="26dp" />
+            android:textSize="26sp" />
 
         <TextView
             android:id="@+id/blackbarbies"
@@ -108,7 +108,7 @@
             android:paddingTop="18dp"
             android:text="black barbies"
             android:textAllCaps="true"
-            android:textSize="26dp" />
+            android:textSize="26sp" />
 
         <TextView
             android:id="@+id/shedALight"
@@ -119,7 +119,7 @@
             android:paddingTop="18dp"
             android:text="shed a light"
             android:textAllCaps="true"
-            android:textSize="26dp" />
+            android:textSize="26sp" />
 
         <TextView
             android:id="@+id/hardwire"
@@ -130,7 +130,7 @@
             android:paddingTop="18dp"
             android:text="hardwire"
             android:textAllCaps="true"
-            android:textSize="26dp" />
+            android:textSize="26sp" />
 
         <TextView
             android:id="@+id/neverGiveUp"
@@ -141,7 +141,7 @@
             android:paddingTop="18dp"
             android:text="never give up"
             android:textAllCaps="true"
-            android:textSize="26dp" />
+            android:textSize="26sp" />
 
     </LinearLayout>
 
