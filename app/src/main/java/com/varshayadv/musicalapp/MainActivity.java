@@ -1,11 +1,11 @@
 package com.varshayadv.musicalapp;
 
-import android.app.Activity;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -25,17 +25,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        //find the view that shows the number category
         TextView songs = (TextView) findViewById(R.id.songs);
 
-        //set a clickListener on the view
+
         songs.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View view) {
-                //create a new intent to open the {@link numberActivity}
-                Intent numberIntent = new Intent(MainActivity.this, songs.class);
-                //start the new Activity
+                Intent numberIntent = new Intent(MainActivity.this, Songs.class);
+
                 startActivity(numberIntent);
             }
         });
@@ -47,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                Intent numberIntent = new Intent(MainActivity.this, albums.class);
+                Intent numberIntent = new Intent(MainActivity.this, Albums.class);
                 startActivity(numberIntent);
             }
         });
@@ -58,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                Intent numberIntent = new Intent(MainActivity.this, favourite.class);
+                Intent numberIntent = new Intent(MainActivity.this, Favourite.class);
                 startActivity(numberIntent);
             }
         });
@@ -69,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                Intent numberIntent = new Intent(MainActivity.this, radio.class);
+                Intent numberIntent = new Intent(MainActivity.this, Radio.class);
                 startActivity(numberIntent);
             }
         });
@@ -80,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                Intent numberIntent = new Intent(MainActivity.this, artists.class);
+                Intent numberIntent = new Intent(MainActivity.this, Artists.class);
                 startActivity(numberIntent);
             }
         });

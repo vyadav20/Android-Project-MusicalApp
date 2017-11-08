@@ -4,12 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.varshayadv.musicalapp.songs">
+    tools:context="com.varshayadv.musicalapp.Songs">
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical">
+
+        <TextView
+            android:layout_width="450dp"
+            android:layout_height="105dp"
+            android:paddingBottom="18dp"
+            android:paddingLeft="8dp"
+            android:paddingTop="18dp"
+            android:text="here in this we have All downloaded songs list :"
+            android:textAllCaps="true"
+            android:textSize="26sp"
+            android:textColor="#009688"/>
 
         <TextView
             android:id="@+id/stillGotThe"

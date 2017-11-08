@@ -12,6 +12,16 @@
         android:orientation="vertical">
 
         <TextView
+            android:layout_width="450dp"
+            android:layout_height="105dp"
+            android:paddingBottom="18dp"
+            android:paddingLeft="8dp"
+            android:paddingTop="18dp"
+            android:text="here we can read about payment api's in brief :"
+            android:textAllCaps="true"
+            android:textSize="26sp"
+            android:textColor="#F4A460"/>
+        <TextView
             android:id="@+id/androdpayapioverview"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

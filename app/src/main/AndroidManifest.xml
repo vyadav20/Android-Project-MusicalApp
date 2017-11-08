@@ -19,19 +19,19 @@
             android:name=".Payment"
             android:label="Payment API" />
         <activity
-            android:name=".songs"
+            android:name=".Songs"
             android:label="SONGS" />
         <activity
-            android:name=".albums"
+            android:name=".Albums"
             android:label="ALBUMS" />
         <activity
-            android:name=".favourite"
+            android:name=".Favourite"
             android:label="FAVOURITE" />
         <activity
-            android:name=".radio"
+            android:name=".Radio"
             android:label="RADIO" />
         <activity
-            android:name=".artists"
+            android:name=".Artists"
             android:label="ARTISTS" />
     </application>
 

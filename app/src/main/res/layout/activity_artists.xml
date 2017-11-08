@@ -5,7 +5,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.varshayadv.musicalapp.artists">
+    tools:context="com.varshayadv.musicalapp.Artists">
+
+    <TextView
+        android:layout_width="450dp"
+        android:layout_height="105dp"
+        android:paddingBottom="18dp"
+        android:paddingLeft="8dp"
+        android:paddingTop="18dp"
+        android:text="in this we have all artists name :"
+        android:textAllCaps="true"
+        android:textSize="26sp"
+        android:textColor="#0288D1" />
 
     <TextView
         android:id="@+id/edsheeran"

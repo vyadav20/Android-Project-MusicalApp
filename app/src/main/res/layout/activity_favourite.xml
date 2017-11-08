@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.varshayadv.musicalapp.favourite">
+    tools:context="com.varshayadv.musicalapp.Favourite">
+
+    <TextView
+        android:layout_width="450dp"
+        android:layout_height="105dp"
+        android:paddingBottom="18dp"
+        android:paddingLeft="8dp"
+        android:paddingTop="18dp"
+        android:text="here we have All favourite songs list :"
+        android:textAllCaps="true"
+        android:textColor="#009688"
+        android:textSize="26sp"/>
 
     <TextView
         android:id="@+id/shapeOfYou"

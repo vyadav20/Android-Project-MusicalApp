@@ -3,11 +3,11 @@ package com.varshayadv.musicalapp;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class albums extends AppCompatActivity {
+public class Radio extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_albums);
+        setContentView(R.layout.activity_radio);
     }
 }

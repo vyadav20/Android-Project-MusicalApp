@@ -5,7 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.varshayadv.musicalapp.albums">
+    tools:context="com.varshayadv.musicalapp.Albums">
+
+    <TextView
+        android:id="@+id/brief"
+        android:layout_width="450dp"
+        android:layout_height="105dp"
+        android:paddingBottom="18dp"
+        android:paddingLeft="8dp"
+        android:paddingTop="18dp"
+        android:text="Here we have list of all the albums :"
+        android:textAllCaps="true"
+        android:textSize="30sp"
+        android:textColor="#FF4500"/>
+
 
     <TextView
         android:id="@+id/album1"
