@@ -14,8 +14,8 @@
         android:paddingTop="18dp"
         android:text="Here we have all radio stations:"
         android:textAllCaps="true"
-        android:textSize="26sp"
-        android:textColor="#FF5722"/>
+        android:textColor="#FF5722"
+        android:textSize="26sp" />
 
     <TextView
         android:id="@+id/radio93.1"

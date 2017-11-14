@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -19,8 +18,9 @@
             android:paddingTop="18dp"
             android:text="here we can read about payment api's in brief :"
             android:textAllCaps="true"
-            android:textSize="26sp"
-            android:textColor="#F4A460"/>
+            android:textColor="#F4A460"
+            android:textSize="26sp" />
+
         <TextView
             android:id="@+id/androdpayapioverview"
             android:layout_width="wrap_content"

@@ -15,7 +15,7 @@
         android:text="here we have All favourite songs list :"
         android:textAllCaps="true"
         android:textColor="#009688"
-        android:textSize="26sp"/>
+        android:textSize="26sp" />
 
     <TextView
         android:id="@+id/shapeOfYou"

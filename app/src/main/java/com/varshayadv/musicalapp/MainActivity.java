@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.TextView;
 
 
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -82,5 +83,18 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(numberIntent);
             }
         });
+
+        TextView nowplaying = (TextView) findViewById(R.id.nowplaying);
+
+        nowplaying.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                Intent numberIntent = new Intent(MainActivity.this, NowPlaying.class);
+                startActivity(numberIntent);
+            }
+        });
+
+
     }
 }

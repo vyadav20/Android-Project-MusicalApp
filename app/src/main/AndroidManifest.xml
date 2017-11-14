@@ -33,6 +33,11 @@
         <activity
             android:name=".Artists"
             android:label="ARTISTS" />
+
+        <activity android:name=".NowPlaying"
+            android:label="NOW PLAYING"/>
+
+
     </application>
 
 </manifest>
