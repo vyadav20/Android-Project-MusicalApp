@@ -7,6 +7,16 @@
     tools:context="com.varshayadv.musicalapp.Radio">
 
     <TextView
+        android:layout_width="550dp"
+        android:layout_height="85dp"
+        android:gravity="center"
+        android:text="radio"
+        android:textAllCaps="true"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+
+    <TextView
         android:layout_width="450dp"
         android:layout_height="105dp"
         android:paddingBottom="18dp"
@@ -56,5 +66,17 @@
         android:paddingTop="18dp"
         android:text="93.6"
         android:textSize="26sp" />
+
+    <Button
+        android:id="@+id/Radio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_light"
+        android:onClick="details"
+        android:paddingTop="18dp"
+        android:text="click to open Artists List"
+        android:textAllCaps="true"
+        android:textSize="26sp" />
+
 
 </LinearLayout>

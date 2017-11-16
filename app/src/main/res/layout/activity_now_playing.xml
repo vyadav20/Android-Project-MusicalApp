@@ -7,6 +7,16 @@
     tools:context="com.varshayadv.musicalapp.NowPlaying">
 
     <TextView
+        android:layout_width="550dp"
+        android:layout_height="85dp"
+        android:gravity="center"
+        android:text="Now Playing"
+        android:textAllCaps="true"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+
+    <TextView
         android:id="@+id/explanation_text_view"
         android:layout_width="450dp"
         android:layout_height="320dp"
@@ -26,5 +36,17 @@
         android:layout_centerHorizontal="true"
         android:scaleType="centerCrop"
         android:src="@drawable/playing" />
+
+    <Button
+        android:id="@+id/NowPlaying"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_light"
+        android:onClick="details"
+        android:paddingTop="18dp"
+        android:text="click to open songs List"
+        android:textAllCaps="true"
+        android:textSize="26sp" />
+
 
 </LinearLayout>

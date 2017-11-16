@@ -11,6 +11,16 @@
         android:orientation="vertical">
 
         <TextView
+            android:layout_width="550dp"
+            android:layout_height="85dp"
+            android:gravity="center"
+            android:text="songs"
+            android:textAllCaps="true"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+
+        <TextView
             android:layout_width="450dp"
             android:layout_height="190dp"
             android:paddingBottom="18dp"
@@ -153,22 +163,14 @@
             android:textAllCaps="true"
             android:textSize="26sp" />
 
-        <TextView
-            android:id="@+id/detail"
-            android:layout_width="450dp"
-            android:layout_height="75dp"
-            android:textAllCaps="true"
-            android:textSize="26sp"
-            android:textColor="#009688"/>
-
         <Button
-            android:id="@+id/songsDetails"
+            android:id="@+id/songsD"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@android:color/holo_orange_light"
             android:onClick="details"
             android:paddingTop="18dp"
-            android:text="click here details"
+            android:text="click here albums list"
             android:textAllCaps="true"
             android:textSize="26sp" />
 

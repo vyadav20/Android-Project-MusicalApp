@@ -11,6 +11,16 @@
         android:orientation="vertical">
 
         <TextView
+            android:layout_width="550dp"
+            android:layout_height="85dp"
+            android:gravity="center"
+            android:text="payment"
+            android:textAllCaps="true"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+
+        <TextView
             android:layout_width="450dp"
             android:layout_height="105dp"
             android:paddingBottom="18dp"
