@@ -10,10 +10,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="albums"
-        android:textColor="#000000"
         android:textAllCaps="true"
-        android:textStyle="bold"
-        android:textSize="36sp" />
+        android:textColor="#000000"
+        android:textSize="36sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/brief"
@@ -84,4 +84,4 @@
         android:textSize="26sp" />
 
 
-  </LinearLayout>
+</LinearLayout>

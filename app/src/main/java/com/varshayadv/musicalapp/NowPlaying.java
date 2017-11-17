@@ -9,6 +9,7 @@ import android.widget.Button;
 public class NowPlaying extends AppCompatActivity {
 
     Button btn;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,7 +19,7 @@ public class NowPlaying extends AppCompatActivity {
 
         btn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent i = new Intent(NowPlaying.this, Songs.class);
+                Intent i = new Intent(NowPlaying.this, Payment.class);
                 startActivity(i);
             }
         });

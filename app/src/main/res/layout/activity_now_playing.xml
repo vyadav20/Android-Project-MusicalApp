@@ -9,29 +9,30 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="#000000"
         android:text="Now Playing"
         android:textAllCaps="true"
+        android:textColor="#000000"
         android:textSize="36sp"
         android:textStyle="bold" />
 
+    <!-- Access to the media library -->
 
     <TextView
         android:id="@+id/explanation_text_view"
         android:layout_width="450dp"
-        android:layout_height="320dp"
+        android:layout_height="175dp"
         android:paddingBottom="18dp"
         android:paddingLeft="8dp"
         android:paddingTop="18dp"
         android:text="It's now playing screen you can click here to play, pause and also play next and previous songs :"
         android:textAllCaps="true"
         android:textColor="#FF0000"
-        android:textSize="30sp" />
+        android:textSize="25sp" />
 
     <ImageView
         android:id="@+id/now_playing_image_view"
         android:layout_width="wrap_content"
-        android:layout_height="150dp"
+        android:layout_height="200dp"
         android:layout_below="@id/explanation_text_view"
         android:layout_centerHorizontal="true"
         android:paddingBottom="18dp"
@@ -47,7 +48,7 @@
         android:background="@android:color/holo_orange_light"
         android:onClick="details"
         android:paddingTop="18dp"
-        android:text="click to open songs List"
+        android:text="click to open Payment"
         android:textAllCaps="true"
         android:textSize="26sp" />
 

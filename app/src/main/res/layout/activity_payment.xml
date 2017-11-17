@@ -14,8 +14,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="payment"
-            android:textColor="#000000"
             android:textAllCaps="true"
+            android:textColor="#000000"
             android:textSize="36sp"
             android:textStyle="bold" />
 
@@ -72,6 +72,17 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Name and Description :- \n1) class MaskedWalletRequest = Use the MaskedWalletRequest Builder to create a masked, or partially hidden, payment card number, along with shipping address if requested.\n 2) class FullWalletRequest = Use the FullWalletRequest Builder to get the full credentials for the Android Pay payment transaction.\n 3) class WalletFragment = Provides a simple way to place and interact with a purchase button in the app UI.\n 4) class PaymentMethodTokenizationParamters = Parameters the app must provide to a Wall Request in order to tokenize the credit card selected by the user. The payment processor may require specific parameters for their gateway.\n 5) interface Wallet.Payments = Interface to the Wallet payment flow APIs, used to check if the user can pay with Android Pay and to load a Masked or Full Wallet.\n 6) interface WalletConstants = A collection of constant values." />
+
+        <Button
+            android:id="@+id/Payment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_light"
+            android:onClick="details"
+            android:paddingTop="18dp"
+            android:text="click to open songs list"
+            android:textAllCaps="true"
+            android:textSize="26sp" />
 
     </LinearLayout>
 
